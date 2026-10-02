@@ -1,1 +1,3 @@
+import os
 SERPAPI_KEY = "4a89879221ceb13e572a523262acd9ecf66062ea662f990ce4078adec78dda7f"
+PSI_API_KEY = os.environ.get("PSI_API_KEY", "")
